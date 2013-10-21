@@ -23,7 +23,12 @@ body {
 		color: blue;
     }
 }
-
+@media (device-width: 720px) {
+    body {
+        font-size: 20px;
+		color:#990;
+    }
+}
 @media (device-width: 768px) {
     body {
         font-size: 20px;
